@@ -90,3 +90,97 @@ h1,p{
   align-items: center;
   justify-content: center;
 }
+
+/*Code-----------------------------------------------*/
+.code{
+  height: 500px;
+  display: flex;
+}
+
+.code--yellow-section{
+  background-color: #CCA008;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.code--info{
+  background-color: black;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Resume---------------------------------------------*/
+.resume{
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.resume--yellow-section{
+  background-color: #CCA008;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume--content{
+  background-color: black;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Other-----------------------------------------------*/
+.other{
+  height: 500px;
+  display: flex;
+}
+
+.other--yellow-section{
+  background-color: #CCA008;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.other--info{
+  background-color: black;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Contact---------------------------------------------*/
+.contact{
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contact--yellow-section{
+  background-color: #CCA008;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact--all{
+  background-color: black;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+}
