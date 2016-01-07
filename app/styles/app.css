@@ -31,9 +31,62 @@ html {
   unicode-range: U+0020-2122;
 }
 
+#ember365{
+  margin-top: -20px;
+}
+
 body{
   width: 100%;
   margin: 0px 0 0px 0;
 }
 
+h1,p{
+  color: white;
+}
 
+/*Home----------------------------------------------*/
+.home{
+  height: 500px;
+  display: flex;
+}
+
+.home--title{
+  background-color: #CCA008;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home--intro{
+  background-color: black;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Web-----------------------------------------------*/
+.web{
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.web--yellow-section{
+  background-color: #CCA008;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.web--info{
+  background-color: black;
+  display: flex;
+  flex: 1 0 0;
+  align-items: center;
+  justify-content: center;
+}
